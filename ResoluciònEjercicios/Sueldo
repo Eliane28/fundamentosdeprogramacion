@@ -1,0 +1,16 @@
+Algoritmo sueldo
+	//datos de entrada
+	Definir horast como entero
+	Definir pagoh como real
+	//Proceso 
+	Escribir "las horas trabajadas:"
+	Leer horast
+	Escribir "pago por hora"
+	Leer pagoh
+	Si horast<= 40 entonces
+		//datos de salida
+	Escribir "El pago total a pagar es:", horast*pagoh
+Sino
+	Escribir "EL pago total a pagar es:",(horast*pagoh)*2
+FinSi
+FinAlgoritmo
