@@ -21,4 +21,4 @@ def suma10NumerosFor():
 
 
 #suma10NumerosWhile()
-suma10NumerosFor() 
+suma10NumerosFor()
