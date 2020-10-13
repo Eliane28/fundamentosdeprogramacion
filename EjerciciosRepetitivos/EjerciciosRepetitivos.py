@@ -7,3 +7,5 @@ def suma10NumerosFor():
         suma=suma+numero
     #Datos de salida
     print(f"La suma de los 10 numeros ingresados es: {suma}")
+    corrige
+    
