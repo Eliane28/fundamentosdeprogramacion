@@ -37,3 +37,14 @@ def suma10NumerosWhile():
 #suma10NumerosWhile()
 #suma10NumerosFor()
 suma10NumerosEmulateDoWhile()
+
+
+def numPares0a100():
+    #definir varibales e inicializar valores
+    totalNumPares=0
+    #Proceso y datos de entrada
+    for numInit in range(101):
+        if numInit%2==0:
+            totalNumPares=totalNumPares+1
+    print(f"La cantidad de numeros pares entre 0 y 100 es: {totalNumPares}")
+
