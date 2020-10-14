@@ -6,4 +6,4 @@ def Calificacion():
     #proceso
     pc=(n1+n2+n3+n4)/4
     #datos de salida 
-    print("La nota final del alunmo es:",nf)  
+    print("La nota final del alunmo es:",nf)
