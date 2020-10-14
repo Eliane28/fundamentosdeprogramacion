@@ -44,4 +44,33 @@ def Vacunacion():
     if(sexo==1 or (edad<16)):
         print("se aplicara vacuna tipo A")
         tipoA=tipoA+1
-Vacunacion()     
+Vacunacion()
+
+def Calcular_Operacion():
+    #datos de entrada
+    str
+    numero1=int(input("escribe su primer numero:"))
+    numero2=int(input("escribir su segundo numero:"))
+    signo=int(input("teclee el signo de la operacion:,signo"))
+    #proceso
+
+    if (operacion==1) :
+        suma=dato1+dato2
+        print("el reultado es", suma)
+    
+    if (operacion==2) :
+        resta=dato1-dato2
+        print("el reultado es", resta)
+    
+    if (operacion==3) :
+        multiplicacion=dato1*dato2
+        print("el reultado es", multiplicacion)
+    
+    if (operacion==4) :
+        division=dato1/dato2
+        print("el reultado es", division)
+    
+    if (operacion==5) :
+        potencia=dato1**dato2
+        print("el reultado es", potencia)
+CalcularOperacion()
