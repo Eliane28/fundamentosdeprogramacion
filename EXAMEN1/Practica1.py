@@ -74,3 +74,18 @@ def Calcular_Operacion():
         potencia=dato1**dato2
         print("el reultado es", potencia)
 CalcularOperacion()
+
+def Incremento_Salario():
+    #datos de entrada 
+    str
+    salario=int(input("Digite el salario:"))
+    año=int(input("A cuantos años deseas realizar el calculo:"))
+    #proceso 
+    x <- 1
+	mientras x <= año Hacer
+		salario <- salario + (salario*0.1)
+    #datos de salida 
+    print( "El salario en el año ",x," es de:",salario)
+    x<- x + 1
+Incremento_Salario()
+
