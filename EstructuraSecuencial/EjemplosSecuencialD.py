@@ -16,4 +16,27 @@ def CalcularElPintado():
     #Proceso
     montoC = cantidadM2 * costoM2
     #Dato de salida
-    print(f'Monto a cobrar es : {montoC}')    
+    print(f'Monto a cobrar es : {montoC}')   
+
+def decision():
+    print('Hola Bienvenido')
+    print()
+    print("""
+    Menu: Seleccione una opcion
+    1. Calcular el promedio de tus notas
+    2. Calcular el servicio de pintado
+    3. salir
+    """)
+    menu = int(input())
+    
+    if menu == 1:
+        CalcularPromedioNota()
+    elif menu == 2:
+        CalcularElPintado()
+    elif menu == 3:
+        print('Chau hasta pronto')
+    else:
+        print('Ingrese una opcion correcta.')
+        decision()
+
+decision()     
