@@ -5,7 +5,7 @@ def AhorrodePesosdeunaPersona():
         print('PROCESO' + repr (i))
         print("ahorro Diario= D")
         print("ahorro Anual= A")
-        # Proceso 
+    # Proceso 
         if Ahorro_anual==A + 0.01*math.pow(3,i)
         if ahorro_diario==A 
         print ('Valor de ahorro diario: ' + repr (ahorro_diario))
